@@ -1,3 +1,7 @@
+import React from 'react';
+
+const [activeIndex, setActiveIndex] = React.useState(0);
+
 function Categories() {
   return (
     <div className="categories">
